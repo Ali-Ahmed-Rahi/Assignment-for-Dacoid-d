@@ -13,7 +13,7 @@ const Question = ({ questionData, onSelectAnswer }) => {
       onSelectAnswer(option);
       setSelectedOption(null);
       setIsCorrect(null);
-    }, 1500); // Move to next question after 1.5 seconds
+    }, 1500); 
   };
 
   return (

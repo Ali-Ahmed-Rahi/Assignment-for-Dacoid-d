@@ -1,9 +1,9 @@
 
 import { useState } from "react";
-import Question from "./Question";
 import Scoreboard from "./ScoreBoard";
-
 import Timer from "./Timer";
+import Question from "./Question";
+
 
 export const questions = [
   {
