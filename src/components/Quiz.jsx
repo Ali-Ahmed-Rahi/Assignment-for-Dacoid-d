@@ -1,8 +1,8 @@
 
 import { useState } from "react";
-import Scoreboard from "./ScoreBoard";
-import Timer from "./Timer";
-import Question from "./Question";
+import Scoreboard from "../components/Scoreboard";
+import Timer from "../components/Timer";
+import Question from '../components/Question';
 
 
 export const questions = [
@@ -140,7 +140,7 @@ const Quiz = () => {
       ) : (
         <>
           <Timer duration={30} onTimeUp={nextQuestion} />
-          <Question questionData={questions[currentQuestion]} onSelectAnswer={handleAnswerSelection} />
+          < Question questionData={questions[currentQuestion]} onSelectAnswer={handleAnswerSelection} />
         </>
       )}
     </div>
